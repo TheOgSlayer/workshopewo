@@ -1,0 +1,25 @@
+name: ShopPlugin
+version: ${project.version}
+main: com.example.shop.ShopPlugin
+api-version: "1.21"
+depend: [Vault]
+description: Shop, Quick Buy, Shards and Books shops
+
+commands:
+  shop:
+    description: Open the shop
+  quickbuy:
+    description: Open your Quick Buy shop
+    aliases: [qshop]
+  shardsafkset:
+    description: Set the AFK area where players are not kicked for idling
+    usage: /shardsafkset <pos1|pos2|info|remove>
+    permission: shop.admin
+  shards:
+    description: View or manage shards
+    usage: /shards [give|take|set <player> <amount>]
+
+permissions:
+  shop.admin:
+    description: Manage shard balances
+    default: op

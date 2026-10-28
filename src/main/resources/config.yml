@@ -1,0 +1,109 @@
+# Shard rewards
+shard-rewards:
+  interval-minutes: 5     # how often online players get shards
+  interval-amount: 3      # shards per interval
+  afk-area-amount: 1      # shards per interval while standing in the /shardsafkset area
+  kill-amount: 10         # shards per player kill (no cooldown)
+
+shops:
+  overworld:
+    title: "Overworld Shop"
+    items:
+      DIRT: 2.0
+      GRASS_BLOCK: 3.0
+      GRAVEL: 5.0
+      SAND: 5.0
+      COBBLESTONE: 3.0
+
+  nether:
+    title: "Nether Shop"
+    items:
+      BLAZE_ROD: 140
+      GLOWSTONE_DUST: 30
+      MAGMA_CREAM: 25
+      GHAST_TEAR: 420
+      QUARTZ: 80
+      SOUL_SAND: 60
+      MAGMA_BLOCK: 32
+      CRYING_OBSIDIAN: 280
+
+  end:
+    title: "End Shop"
+    items:
+      ENDER_CHEST: 2500
+      ENDER_PEARL: 200
+      END_STONE: 28
+      DRAGON_BREATH: 1500
+      END_ROD: 70
+      POPPED_CHORUS_FRUIT: 18
+      CHORUS_FRUIT: 16
+      SHULKER_SHELL: 500
+      SHULKER_BOX: 1500
+
+  gear:
+    title: "Gear Shop"
+    items:
+      OBSIDIAN: 200.0
+      END_CRYSTAL: 3500
+      RESPAWN_ANCHOR: 1000
+      GLOWSTONE: 160
+      TOTEM_OF_UNDYING: 3500
+      ENDER_PEARL: 200
+      GOLDEN_APPLE: 300
+      EXPERIENCE_BOTTLE: 100
+      ARROW: 20
+
+  food:
+    title: "Food Shop"
+    items:
+      POTATO: 20
+      SWEET_BERRIES: 20
+      MELON_SLICE: 20
+      CARROT: 20
+      APPLE: 25
+      COOKED_CHICKEN: 34
+      COOKED_BEEF: 35
+      GOLDEN_CARROT: 45
+      GOLDEN_APPLE: 300
+
+  minerals:
+    title: "Minerals Shop"
+    items:
+      DIAMOND: 2500
+      IRON_INGOT: 500
+      GOLD_INGOT: 400
+      COPPER_INGOT: 300
+      COAL: 100
+
+# Shards Shop (price in shards, per spawner)
+shards:
+  cow: 350
+  blaze: 1000
+  golem: 1500
+  zombie: 500
+  skeleton: 550
+  creeper: 525
+  spider: 500
+
+# Books Shop (price per level, paid with money)
+books:
+  protection:       {1: 300000, 2: 400000, 3: 500000, 4: 650000}
+  blast_protection: {1: 200000, 2: 250000, 3: 275000, 4: 350000}
+  fire_protection:  {1: 250000, 2: 300000, 3: 350000, 4: 400000}
+  feather_falling:  {1: 200000, 2: 225000, 3: 375000, 4: 400000}
+  thorns:           {1: 200000, 2: 250000, 3: 350000}
+  unbreaking:       {1: 300000, 2: 400000, 3: 500000}
+  mending:          {1: 600000}
+  sharpness:        {1: 300000, 2: 450000, 3: 500000, 4: 550000, 5: 575000}
+  fire_aspect:      {1: 300000, 2: 475000}
+  looting:          {1: 300000, 2: 400000, 3: 500000}
+  efficiency:       {1: 200000, 2: 300000, 3: 450000, 4: 500000, 5: 600000}
+  fortune:          {1: 275000, 2: 350000, 3: 400000}
+  infinity:         {1: 225000}
+  aqua_affinity:    {1: 35000}
+  depth_strider:    {1: 400000, 2: 570000, 3: 620000}
+  riptide:          {1: 275000, 2: 300000, 3: 400000}
+  swift_sneak:      {1: 200000, 2: 250000, 3: 320000}
+  soul_speed:       {1: 200000, 2: 250000, 3: 300000}
+  silk_touch:       {1: 500000}
+  lunge:            {1: 250000, 2: 300000, 3: 350000}
